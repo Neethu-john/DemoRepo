@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="tests(failed)">
+    <classes>
+      <class name="tests.Testing3">
+        <methods>
+          <include name="mainTest"/>
+          <include name="homeTest"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- tests.Testing3 -->
+    </classes>
+  </test> <!-- tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
